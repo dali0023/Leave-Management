@@ -20,7 +20,7 @@ namespace Leave_Management.Models.ModelView
 
         public int LeaveTypeID { get; set; }
         
-        public DetailsLeaveTypeVM LeaveType { get; set; }
+        public LeaveTypeVM LeaveType { get; set; }
 
         public IEnumerable<SelectListItem> Employees { get; set; }
         public IEnumerable<SelectListItem> LeaveTypes { get; set; }
