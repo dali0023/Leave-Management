@@ -12,7 +12,7 @@ namespace Leave_Management.Models
     {
         [Key]
         public int Id { get; set; }
-        // REquesting Employee FK Set
+        // Requesting Employee FK Set
         public string RequestingEmployeeID { get; set; }
         [ForeignKey("RequestingEmployeeID")]
         public virtual Employee RequestingEmployee { get; set; }
